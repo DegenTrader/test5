@@ -6,5 +6,11 @@ export const BlockchainInfo = {
     },
     [BLOCKCHAIN_NAME.POLYGON]: {
         id: 137
-    }
+    },
+    [BLOCKCHAIN_NAME.AVALANCHE]: {
+        id: 43114
+    },
+    [BLOCKCHAIN_NAME.ETHEREUM]: {
+        id: 1
+    },
 }
