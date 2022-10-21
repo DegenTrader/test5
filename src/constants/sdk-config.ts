@@ -7,6 +7,12 @@ export const configuration: Configuration = {
         },
         [BLOCKCHAIN_NAME.POLYGON]: {
             mainRpc: 'https://polygon-rpc.com'
-        }
+        },
+        [BLOCKCHAIN_NAME.AVALANCHE]: {
+            mainRpc: 'https://api.avax.network/ext/bc/C/rpc'
+        },
+        [BLOCKCHAIN_NAME.ETHEREUM]: {
+            mainRpc: 'https://mainnet.infura.io/v3/'
+        },
     }
 }

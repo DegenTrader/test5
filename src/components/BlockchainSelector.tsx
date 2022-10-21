@@ -20,6 +20,14 @@ const blockchains = [
     {
         value: BLOCKCHAIN_NAME.POLYGON,
         label: 'Polygon'
+    },
+    {
+        value: BLOCKCHAIN_NAME.AVALANCHE,
+        label: 'Avalanche'
+    },
+    {
+        value: BLOCKCHAIN_NAME.ETHEREUM,
+        label: 'Ethereum'
     }
 ];
 
